@@ -13,8 +13,8 @@ def check_auth_api():
     url = "https://cloud.139.com/ulhw/cloudphone/user/instance/auth"
     headers = {
         'Content-Type': 'application/json; charset=UTF-8',
-        'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNjMyOTE5NDg4MjkwMTg5MzEzIiwib3JpVG9rZW4iOiJCRjM4NzA5ODQ1MTU0MUE0QThBRjcwRDUzNzZCMDNBMiIsInN1YklkIjoiMTYzMjkxOTQ4ODI5MDE4OTMxMyIsImFjY291bnQiOiI0Nzg5NWRhMGJmZDk5ZDJhNjFhZTQ0MWJkNGFiNjcwZjdkODIwYjg1NjQxZTRlNTkxMGMyNTdhMTExZjkzOTNlMzU5MjllYjFjMmRiOGY5NzYzZTZhMSIsInRlbmFudElkIjoiODYwMSIsImV4cCI6MTc0ODAwMDI5OCwiY2xpZW50VHlwZSI6IldlYiIsImxvZ2luTWV0aG9kIjoiU0lNIn0.kj7EBRIIIdtlOj6JcDgDLg7Rcwo7sjtUqbfmxEfRmDAfC0O186BslkMpCuqcRNPGbSVBUMhPIKLR0wQJ8jK8yA',
-        'sign': '0c268a3edc76762186bb2af62fffa372',
+        'token': 'instan_token',
+        'sign': 'sign_xxxx',
     }
     payload = {
         "phoneId": "o91s2b3e",
